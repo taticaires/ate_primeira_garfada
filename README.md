@@ -1,2 +1,2 @@
-# At-a-Primeira-Garfada
+# Até a Primeira Garfada
 Inteligência operacional para transformar a experiência do restaurante.
