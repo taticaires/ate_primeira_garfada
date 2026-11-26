@@ -41,31 +41,31 @@ As imagens apresentam interfaces do protótipo. Os dados exibidos são simulados
 
 Painel central com indicadores resumidos e alerta operacional.
 
-![Visão Geral](docs/images/01-visao-geral.png)
+![Visão Geral](docs/images/1.png)
 
 ### Monitoramento do Buffet
 
 Visualização dos níveis dos alimentos e da prioridade de reposição.
 
-![Monitoramento do Buffet](docs/images/02-monitoramento-buffet.png)
+![Monitoramento do Buffet](docs/images/2.png)
 
 ### Balança Inteligente
 
 Demonstração visual da pesagem e da análise ilustrativa do prato.
 
-![Balança Inteligente](docs/images/03-balanca-inteligente.png)
+![Balança Inteligente](docs/images/3.png)
 
 ### Desperdício e Experiência
 
 Gráficos demonstrativos de consumo, descarte e experiência do cliente.
 
-![Desperdício e Experiência](docs/images/04-desperdicio-experiencia.png)
+![Desperdício e Experiência](docs/images/4.png)
 
 ### Gestão de Mesas
 
 Visualização dos estados e da ocupação demonstrativa das mesas.
 
-![Gestão de Mesas](docs/images/05-gestao-mesas.png)
+![Gestão de Mesas](docs/images/5.png)
 
 ## Vídeo de demonstração
 
