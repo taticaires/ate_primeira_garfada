@@ -46,7 +46,7 @@ O protótipo reúne módulos operacionais em uma aplicação com navegação int
 ## Módulos
 
 - **Visão Geral:** painel central com indicadores resumidos e alertas operacionais.
-- **Balança Inteligente:** demonstração visual relacionada à pesagem e à análise ilustrativa do prato.
+- **Balança Inteligente:** demonstração visual relacionada à pesagem , sensor de temperatura e à análise ilustrativa do prato.
 - **Monitoramento do Buffet:** níveis demonstrativos dos alimentos e indicação de reposição.
 - **Fluxo e Atendimento:** visualização demonstrativa do fluxo e do atendimento.
 - **Gestão de Mesas:** estados e ocupação demonstrativa das mesas.
