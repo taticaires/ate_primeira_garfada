@@ -1,42 +1,85 @@
-#  Até a Primeira Garfada
+# Até a Primeira Garfada
 
 **Inteligência operacional para transformar a experiência do restaurante.**
 
-[![Aplicação online](https://img.shields.io/badge/Aplicação-online-2E6B4F?logo=streamlit&logoColor=white)](https://ate-primeira-garfada.streamlit.app/)
-[![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Interface-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
+Hackathon FMU 2026.2
 
-##  Acesse o protótipo
+[Aplicação online](https://ate-primeira-garfada.streamlit.app/) · [Repositório](https://github.com/taticaires/ate_primeira_garfada)
 
-**[Abrir Até a Primeira Garfada](https://ate-primeira-garfada.streamlit.app/)**
+## Sobre o projeto
 
-Aplicação demonstrativa desenvolvida para apresentar uma proposta de inteligência operacional aplicada à rotina de um restaurante.
+O Até a Primeira Garfada é um protótipo acadêmico de inteligência operacional aplicado ao contexto de restaurantes.
 
-##  Sobre o projeto
+A proposta é reunir informações de diferentes etapas da operação em uma interface integrada, facilitando a leitura de indicadores, a identificação de situações que merecem atenção e o apoio à tomada de decisão.
 
-O **Até a Primeira Garfada** reúne, em uma interface única, módulos que representam diferentes pontos da operação de um restaurante. A proposta é transformar informações operacionais em sinais visuais claros, apoiar a identificação de prioridades e facilitar a compreensão do funcionamento do salão e do buffet.
+O projeto explora como tecnologia e visualização de dados podem contribuir para a organização da operação, do buffet ao atendimento e à gestão de mesas.
 
-O projeto foi desenvolvido como **protótipo acadêmico**. As informações exibidas são simuladas para demonstração e não representam integração ativa com sensores, balanças ou sistemas reais do estabelecimento.
+## Problema identificado
 
-##  Módulos demonstrativos
+Em restaurantes, informações de diferentes etapas da operação podem ficar distribuídas entre setores e controles independentes. Essa fragmentação pode dificultar a visualização do funcionamento geral, a identificação de gargalos e o acompanhamento de reposição, ocupação e desperdício.
 
-- **Visão Geral:** painel central com indicadores resumidos e prioridades operacionais.
-- **Balança Inteligente:** demonstração de análise relacionada à pesagem e ao prato.
-- **Monitoramento do Buffet:** acompanhamento dos níveis dos alimentos e indicação de reposição.
-- **Fluxo e Atendimento:** visualização demonstrativa de fluxo, filas e atendimento.
-- **Gestão de Mesas:** acompanhamento de ocupação e disponibilidade.
-- **Desperdício e Experiência:** indicadores demonstrativos relacionados ao consumo, às sobras e à experiência.
+## Solução proposta
 
-##  Destaques
+O protótipo reúne módulos operacionais em uma aplicação com navegação integrada. A Visão Geral apresenta um resumo demonstrativo e sinais visuais de atenção, enquanto os módulos permitem consultar diferentes dimensões da operação.
 
-- Navegação por módulos em uma única aplicação.
-- Painel central de leitura rápida.
-- Indicadores e alertas visuais.
-- Dados demonstrativos armazenados em arquivos JSON.
-- Interface desenvolvida com Streamlit.
-- Aplicação publicada para acesso pelo navegador.
+**Fluxo conceitual:** informações operacionais → visualização integrada → identificação de prioridades → apoio à decisão.
 
-##  Tecnologias
+## Módulos
+
+- **Visão Geral:** painel central com indicadores resumidos e alertas operacionais.
+- **Balança Inteligente:** demonstração visual relacionada à pesagem e à análise ilustrativa do prato.
+- **Monitoramento do Buffet:** níveis demonstrativos dos alimentos e indicação de reposição.
+- **Fluxo e Atendimento:** visualização demonstrativa do fluxo e do atendimento.
+- **Gestão de Mesas:** estados e ocupação demonstrativa das mesas.
+- **Desperdício e Experiência:** dados demonstrativos relacionados ao consumo, descarte e experiência do cliente.
+
+## Capturas de tela
+
+As imagens apresentam interfaces do protótipo. Os dados exibidos são simulados para fins de demonstração.
+
+### Visão Geral
+
+Painel central com indicadores resumidos e alerta operacional.
+
+![Visão Geral](docs/images/01-visao-geral.png)
+
+### Monitoramento do Buffet
+
+Visualização dos níveis dos alimentos e da prioridade de reposição.
+
+![Monitoramento do Buffet](docs/images/02-monitoramento-buffet.png)
+
+### Balança Inteligente
+
+Demonstração visual da pesagem e da análise ilustrativa do prato.
+
+![Balança Inteligente](docs/images/03-balanca-inteligente.png)
+
+### Desperdício e Experiência
+
+Gráficos demonstrativos de consumo, descarte e experiência do cliente.
+
+![Desperdício e Experiência](docs/images/04-desperdicio-experiencia.png)
+
+### Gestão de Mesas
+
+Visualização dos estados e da ocupação demonstrativa das mesas.
+
+![Gestão de Mesas](docs/images/05-gestao-mesas.png)
+
+## Vídeo de demonstração
+
+Vídeo de apresentação da solução prática, com duração de até 2 minutos:
+
+**[Inserir link do vídeo]**
+
+## Apresentação final
+
+Apresentação do projeto em até 5 slides:
+
+**[Inserir link dos slides]**
+
+## Tecnologias utilizadas
 
 - Python
 - Streamlit
@@ -44,37 +87,7 @@ O projeto foi desenvolvido como **protótipo acadêmico**. As informações exib
 - Altair
 - JSON
 
-##  Executar localmente
-
-Pré-requisitos: Python instalado e Git (opcional, para clonar o repositório).
-
-1. Clone o projeto:
-
-   ```bash
-   git clone https://github.com/taticaires/ate_primeira_garfada.git
-   ```
-
-2. Entre na pasta:
-
-   ```bash
-   cd ate_primeira_garfada
-   ```
-
-3. Instale as bibliotecas utilizadas:
-
-   ```bash
-   pip install streamlit pandas altair
-   ```
-
-4. Inicie a aplicação:
-
-   ```bash
-   python -m streamlit run app.py
-   ```
-
-O Streamlit abrirá a aplicação no navegador. Use o menu lateral para acessar os módulos.
-
-##  Organização do projeto
+## Organização do repositório
 
 ```text
 ate_primeira_garfada/
@@ -87,13 +100,54 @@ ate_primeira_garfada/
     └── desperdicio/
 ```
 
-Cada módulo possui sua própria aplicação e, quando aplicável, arquivos JSON com dados demonstrativos.
+A aplicação principal organiza o acesso aos módulos. Os diretórios dos módulos contêm suas interfaces e, quando aplicável, arquivos JSON com dados demonstrativos.
 
-##  Contexto
+## Como executar localmente
 
-Projeto acadêmico desenvolvido para apresentação e avaliação, com foco em explorar como uma interface de inteligência operacional pode apoiar a experiência e a organização de um restaurante.
+Pré-requisitos: Python instalado. Git é necessário para clonar o repositório.
 
----
+1. Clone o projeto:
 
-**Desenvolvido por Tatiane Caires**  
-[Repositório no GitHub](https://github.com/taticaires/ate_primeira_garfada) · [Protótipo online](https://ate-primeira-garfada.streamlit.app/)
+   ```bash
+   git clone https://github.com/taticaires/ate_primeira_garfada.git
+   ```
+
+2. Acesse a pasta:
+
+   ```bash
+   cd ate_primeira_garfada
+   ```
+
+3. Instale as dependências principais:
+
+   ```bash
+   pip install streamlit pandas altair
+   ```
+
+4. Inicie a aplicação:
+
+   ```bash
+   python -m streamlit run app.py
+   ```
+
+A aplicação será aberta no navegador. Utilize o menu lateral para navegar entre os módulos.
+
+## Escopo e limitações
+
+Este projeto foi desenvolvido como protótipo acadêmico para demonstração e avaliação. Os dados apresentados são simulados ou demonstrativos e não representam resultados medidos em uma operação real.
+
+Nesta versão, não há integração ativa com sensores físicos, balanças inteligentes ou sistemas operacionais reais do restaurante. A análise da balança é ilustrativa, baseada em imagem e dados fictícios.
+
+## Próximas etapas
+
+- Integrar sensores e fontes de dados reais;
+- Validar a solução em ambiente operacional;
+- Evoluir indicadores e regras de análise;
+- Ampliar a integração entre módulos;
+- Avaliar o impacto sobre o fluxo, o desperdício e a experiência do cliente.
+
+## Créditos
+
+Projeto desenvolvido por **Tatiane Caires** para o Hackathon FMU 2026.2.
+
+[Aplicação online](https://ate-primeira-garfada.streamlit.app/) · [Repositório GitHub](https://github.com/taticaires/ate_primeira_garfada)
