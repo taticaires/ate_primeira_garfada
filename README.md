@@ -4,7 +4,7 @@
 
 Hackathon FMU 2026.2
 
-[Aplicação online](https://ate-primeira-garfada.streamlit.app/) · [Repositório](https://github.com/taticaires/ate_primeira_garfada)
+[Aplicação online](https://ate-primeira-garfada.streamlit.app/) · [Repositório](https://github.com/taticaires/ate_primeira_garfada) · [Apresentação em vídeo](https://youtu.be/euwbudI6EG0) · [Apresentação em slides (PDF)](docs/Até%20a%20Primeira%20Garfada_Apresentação%20Hackathon%202.2026%20FMU.pdf)
 
 ## Sobre o projeto
 
@@ -67,17 +67,11 @@ Visualização dos estados e da ocupação demonstrativa das mesas.
 
 ![Gestão de Mesas](docs/images/5.png)
 
-## Vídeo de demonstração
+## Materiais de apresentação
 
-Vídeo de apresentação da solução prática, com duração de até 2 minutos:
-
-**[Inserir link do vídeo]**
-
-## Apresentação final
-
-Apresentação do projeto em até 5 slides:
-
-**[Inserir link dos slides]**
+- **Vídeo:** [Assistir à apresentação da solução](https://youtu.be/euwbudI6EG0)
+- **Slides:** [Abrir apresentação em PDF](docs/Até%20a%20Primeira%20Garfada_Apresentação%20Hackathon%202.2026%20FMU.pdf)
+- **Aplicação:** [Acessar o protótipo online](https://ate-primeira-garfada.streamlit.app/)
 
 ## Tecnologias utilizadas
 
@@ -150,4 +144,4 @@ Nesta versão, não há integração ativa com sensores físicos, balanças inte
 
 Projeto desenvolvido por **Tatiane Caires | Luciene Oliveira | André Romão** para o Hackathon FMU 2026.2.
 
-[Aplicação online](https://ate-primeira-garfada.streamlit.app/) · [Repositório GitHub](https://github.com/taticaires/ate_primeira_garfada)
+[Aplicação online](https://ate-primeira-garfada.streamlit.app/) · [Repositório GitHub](https://github.com/taticaires/ate_primeira_garfada) · [Vídeo](https://youtu.be/euwbudI6EG0) · [Slides em PDF](docs/Até%20a%20Primeira%20Garfada_Apresentação%20Hackathon%202.2026%20FMU.pdf)
