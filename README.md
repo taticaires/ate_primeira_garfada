@@ -14,6 +14,19 @@ A proposta é reunir informações de diferentes etapas da operação em uma int
 
 O projeto explora como tecnologia e visualização de dados podem contribuir para a organização da operação, do buffet ao atendimento e à gestão de mesas.
 
+A visão do projeto vai além do painel digital: propõe conectar a coleta de dados, o apoio à equipe e a comunicação com o cliente ao longo de toda a jornada no restaurante. Algumas iniciativas são pensadas como implementações práticas de curto prazo, enquanto a integração com câmeras, visão computacional e fontes de dados reais representa uma etapa de evolução e validação.
+
+## A jornada do cliente e da operação
+
+A proposta considera a experiência completa, da chegada à saída:
+
+1. **Chegada e escolha:** totens ou painéis visuais no salão apresentam o prato do dia e outras opções do cardápio. A comunicação busca despertar o interesse por diferentes preparações, não apenas pelo churrasco, e orientar a escolha do cliente.
+2. **Identificação de mesas:** uma sinalização luminosa discreta pode indicar mesas livres para os clientes e facilitar a identificação, pela equipe, de mesas ocupadas, em atendimento ou que precisam de limpeza.
+3. **Serviço e buffet:** câmeras e recursos de visão computacional poderão apoiar a leitura do fluxo no salão e a observação dos níveis do buffet, gerando sinais para organização e reposição.
+4. **Montagem do prato:** a balança inteligente poderá combinar a leitura do peso com análise visual dos alimentos, apoiando estimativas de composição e consumo.
+5. **Consumo e retorno dos pratos:** a análise visual do retorno dos pratos poderá contribuir para estimar sobras e padrões de desperdício, respeitando a necessidade de validação em ambiente real.
+6. **Saída e avaliação:** um totem de avaliação rápida permite que o cliente registre sua percepção do atendimento com poucos toques. Esse retorno pode ser relacionado aos indicadores operacionais para compreender melhor a experiência.
+
 ## Problema identificado
 
 Em restaurantes, informações de diferentes etapas da operação podem ficar distribuídas entre setores e controles independentes. Essa fragmentação pode dificultar a visualização do funcionamento geral, a identificação de gargalos e o acompanhamento de reposição, ocupação e desperdício.
@@ -136,13 +149,26 @@ Este projeto foi desenvolvido como protótipo acadêmico para demonstração e a
 
 Nesta versão, não há integração ativa com sensores físicos, balanças inteligentes ou sistemas operacionais reais do restaurante. A análise da balança é ilustrativa, baseada em imagem e dados fictícios.
 
-## Próximas etapas
+## Caminho de implementação
 
-- Integrar sensores e fontes de dados reais;
-- Validar a solução em ambiente operacional;
-- Evoluir indicadores e regras de análise;
-- Ampliar a integração entre módulos;
-- Avaliar o impacto sobre o fluxo, o desperdício e a experiência do cliente.
+A evolução está organizada em duas frentes complementares.
+
+### Melhorias práticas de curto prazo
+
+- Implantar comunicação visual no salão, com destaque para o prato do dia e opções do cardápio;
+- Testar sinalização discreta nas mesas para apoiar a identificação de disponibilidade e necessidade de limpeza;
+- Disponibilizar um totem de avaliação rápida na saída;
+- Usar os retornos dos clientes e observações da equipe para aprimorar a operação.
+
+### Evolução tecnológica
+
+- Integrar câmeras e fontes de dados para leitura de fluxo e apoio ao monitoramento;
+- Desenvolver e validar a análise visual do buffet, da balança e do retorno dos pratos;
+- Integrar sensores e dados reais, quando disponíveis;
+- Aprimorar indicadores, regras de análise e conexão entre módulos;
+- Validar a solução em ambiente operacional e avaliar seus efeitos sobre fluxo, desperdício e experiência.
+
+As iniciativas descritas são propostas de implementação e evolução. Não estão apresentadas como integrações já concluídas ou resultados comprovados nesta versão acadêmica.
 
 ## Créditos
 
