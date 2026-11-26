@@ -1,4 +1,4 @@
-# 🍽️ Até a Primeira Garfada
+#  Até a Primeira Garfada
 
 **Inteligência operacional para transformar a experiência do restaurante.**
 
@@ -6,19 +6,19 @@
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Interface-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 
-## 🚀 Acesse o protótipo
+##  Acesse o protótipo
 
 **[Abrir Até a Primeira Garfada](https://ate-primeira-garfada.streamlit.app/)**
 
 Aplicação demonstrativa desenvolvida para apresentar uma proposta de inteligência operacional aplicada à rotina de um restaurante.
 
-## 💡 Sobre o projeto
+##  Sobre o projeto
 
 O **Até a Primeira Garfada** reúne, em uma interface única, módulos que representam diferentes pontos da operação de um restaurante. A proposta é transformar informações operacionais em sinais visuais claros, apoiar a identificação de prioridades e facilitar a compreensão do funcionamento do salão e do buffet.
 
 O projeto foi desenvolvido como **protótipo acadêmico**. As informações exibidas são simuladas para demonstração e não representam integração ativa com sensores, balanças ou sistemas reais do estabelecimento.
 
-## 🧭 Módulos demonstrativos
+##  Módulos demonstrativos
 
 - **Visão Geral:** painel central com indicadores resumidos e prioridades operacionais.
 - **Balança Inteligente:** demonstração de análise relacionada à pesagem e ao prato.
@@ -27,7 +27,7 @@ O projeto foi desenvolvido como **protótipo acadêmico**. As informações exib
 - **Gestão de Mesas:** acompanhamento de ocupação e disponibilidade.
 - **Desperdício e Experiência:** indicadores demonstrativos relacionados ao consumo, às sobras e à experiência.
 
-## ✨ Destaques
+##  Destaques
 
 - Navegação por módulos em uma única aplicação.
 - Painel central de leitura rápida.
@@ -36,7 +36,7 @@ O projeto foi desenvolvido como **protótipo acadêmico**. As informações exib
 - Interface desenvolvida com Streamlit.
 - Aplicação publicada para acesso pelo navegador.
 
-## 🛠️ Tecnologias
+##  Tecnologias
 
 - Python
 - Streamlit
@@ -44,7 +44,7 @@ O projeto foi desenvolvido como **protótipo acadêmico**. As informações exib
 - Altair
 - JSON
 
-## ▶️ Executar localmente
+##  Executar localmente
 
 Pré-requisitos: Python instalado e Git (opcional, para clonar o repositório).
 
@@ -74,7 +74,7 @@ Pré-requisitos: Python instalado e Git (opcional, para clonar o repositório).
 
 O Streamlit abrirá a aplicação no navegador. Use o menu lateral para acessar os módulos.
 
-## 📂 Organização do projeto
+##  Organização do projeto
 
 ```text
 ate_primeira_garfada/
@@ -89,7 +89,7 @@ ate_primeira_garfada/
 
 Cada módulo possui sua própria aplicação e, quando aplicável, arquivos JSON com dados demonstrativos.
 
-## 🎓 Contexto
+##  Contexto
 
 Projeto acadêmico desenvolvido para apresentação e avaliação, com foco em explorar como uma interface de inteligência operacional pode apoiar a experiência e a organização de um restaurante.
 
