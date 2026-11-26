@@ -8,13 +8,13 @@ Hackathon FMU 2026.2
 
 ## Sobre o projeto
 
-O Até a Primeira Garfada é um protótipo acadêmico de inteligência operacional aplicado ao contexto de restaurantes.
+O **Até a Primeira Garfada** é um protótipo acadêmico de inteligência operacional aplicado a restaurantes. Sua proposta é ajudar o estabelecimento a **compreender melhor a operação, identificar perdas e melhorar a experiência do cliente**, desde a chegada até o momento em que ele consegue começar a refeição.
 
-A proposta é reunir informações de diferentes etapas da operação em uma interface integrada, facilitando a leitura de indicadores, a identificação de situações que merecem atenção e o apoio à tomada de decisão.
+O projeto parte de duas dores que se encontram no dia a dia: para o restaurante, desperdício e dificuldade de enxergar onde estão os gargalos; para o consumidor, filas que atrasam a refeição e podem fazer a comida esfriar antes da primeira garfada.
 
-O projeto explora como tecnologia e visualização de dados podem contribuir para a organização da operação, do buffet ao atendimento e à gestão de mesas.
+A solução propõe reunir sinais operacionais em uma central visual, transformando dados em informações que apoiem a análise e a tomada de decisão. A tecnologia é o meio para compreender os problemas, não uma mudança que precisa ser implantada inteira de uma só vez.
 
-A visão do projeto vai além do painel digital: propõe conectar a coleta de dados, o apoio à equipe e a comunicação com o cliente ao longo de toda a jornada no restaurante. Algumas iniciativas são pensadas como implementações práticas de curto prazo, enquanto a integração com câmeras, visão computacional e fontes de dados reais representa uma etapa de evolução e validação.
+O protótipo demonstra essa ideia em uma aplicação integrada. Comunicação visual sobre o prato do dia, organização do fluxo e coleta de feedback são exemplos de melhorias práticas consideradas na proposta. Integrações com câmeras, visão computacional, sensores e fontes reais de dados fazem parte da evolução futura e precisam ser conectadas e validadas.
 
 ## A jornada do cliente e da operação
 
@@ -22,19 +22,29 @@ A proposta considera a experiência completa, da chegada à saída:
 
 1. **Chegada e escolha:** totens ou painéis visuais no salão apresentam o prato do dia e outras opções do cardápio. A comunicação busca despertar o interesse por diferentes preparações, não apenas pelo churrasco, e orientar a escolha do cliente.
 2. **Identificação de mesas:** uma sinalização luminosa discreta pode indicar mesas livres para os clientes e facilitar a identificação, pela equipe, de mesas ocupadas, em atendimento ou que precisam de limpeza.
-3. **Fluxo do salão e churrasqueira:** câmeras poderão acompanhar o fluxo e o tempo de espera na área da churrasqueira, identificando períodos de fila. O tempo de referência proposto é de até **2 minutos e 30 segundos por cliente**. Quando esse intervalo for ultrapassado de forma recorrente, um alerta poderá aparecer no painel para que o gerente avalie a causa e decida a ação adequada, como reorganizar o fluxo ou considerar reforço de equipe.
+3. **Fluxo do salão e churrasqueira:** câmeras poderão acompanhar o fluxo e o tempo de espera na área da churrasqueira, identificando períodos de fila. Como referência inicial de observação, foi proposto acompanhar um intervalo de até **2 minutos e 30 segundos por cliente**. Esse parâmetro é uma hipótese de trabalho a ser validada, não um padrão operacional comprovado. Quando esse intervalo for ultrapassado de forma recorrente, um alerta poderá aparecer no painel para que o gerente avalie a causa e decida a ação adequada, como reorganizar o fluxo ou considerar reforço de equipe.
 4. **Buffet:** câmeras e recursos de visão computacional poderão observar os níveis dos alimentos e gerar sinais para organização e reposição.
 5. **Montagem do prato:** a balança inteligente poderá combinar a leitura do peso com análise visual dos alimentos, apoiando estimativas de composição e consumo.
 6. **Consumo e retorno dos pratos:** a análise visual do retorno dos pratos poderá contribuir para estimar sobras e padrões de desperdício, respeitando a necessidade de validação em ambiente real.
 7. **Saída e avaliação:** um totem de avaliação rápida permite que o cliente registre sua percepção do atendimento com poucos toques. Esse retorno pode ser relacionado aos indicadores operacionais para compreender melhor a experiência.
 
-## Problema identificado
+## As dores que motivam o projeto
 
-Em restaurantes, informações de diferentes etapas da operação podem ficar distribuídas entre setores e controles independentes. Essa fragmentação pode dificultar a visualização do funcionamento geral, a identificação de gargalos e o acompanhamento de reposição, ocupação e desperdício.
+**Para o restaurante**, o consumo desbalanceado de itens de maior custo, como a carne, e o desperdício no buffet podem comprometer a margem. Sem informações organizadas, torna-se mais difícil compreender quando e onde essas perdas acontecem e quais mudanças realmente podem ajudar.
 
-## Princípio de decisão
+**Para o consumidor**, a fila, especialmente na churrasqueira, pode prolongar o tempo entre montar o prato e sentar-se para comer. A espera afeta o fluxo do salão e pode comprometer a temperatura e a qualidade percebida da refeição.
 
-O projeto parte de uma premissa: **decisões operacionais de maior impacto devem ser orientadas por dados, não por suposições.** As primeiras medidas propostas buscam melhorar a comunicação, a organização e a coleta de informações. Com os dados reunidos ao longo do funcionamento, o gestor poderá identificar quais problemas são recorrentes e quais ações realmente fazem sentido.
+Um relato real recebido de um consumidor ilustra essa situação:
+
+> “Entre fazer o prato e sentar pra comer, já esfriou a comida.”
+
+O comentário é apresentado como uma percepção individual, não como resultado de pesquisa ou dado estatístico. Ele ajuda a traduzir uma questão operacional em uma experiência concreta: uma refeição que começa depois de uma espera frustrante.
+
+## Como os dados apoiam decisões
+
+O projeto parte de uma premissa: **decisões operacionais de maior impacto devem ser orientadas por dados, não por suposições.** A central proposta reúne informações sobre consumo, desperdício, reposição, fluxo e experiência do cliente para ajudar o gestor a identificar padrões, compreender gargalos e avaliar oportunidades de melhoria.
+
+O sistema não toma decisões automaticamente nem impõe mudanças à operação. Ele oferece uma leitura organizada para que o gestor decida, com mais contexto, o que precisa ser feito. As primeiras iniciativas podem ser simples e graduais; decisões de maior impacto devem considerar dados observados e validados no ambiente real.
 
 Por exemplo, não seria adequado recomendar a contratação de cinco funcionários sem conhecer a demanda, os horários de maior movimento, a distribuição das tarefas e os gargalos existentes. O acompanhamento do tempo de espera na churrasqueira, usando como referência proposta até 2 minutos e 30 segundos por cliente, pode ajudar a identificar períodos críticos. Se o tempo exceder essa referência, o painel poderá sinalizar a situação ao gerente. A análise pode indicar que é necessário reforçar a equipe, mas também pode revelar que uma reorganização do fluxo ou das tarefas resolve o problema. O sistema apoia essa avaliação; a decisão continua sendo do gestor.
 
