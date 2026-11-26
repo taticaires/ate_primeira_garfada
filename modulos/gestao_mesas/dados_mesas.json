@@ -1,0 +1,792 @@
+{
+  "metadados": {
+    "projeto": "Até a Primeira Garfada",
+    "modulo": "gestao_inteligente_mesas",
+    "unidade": "Bovinu’S Grill & Beer - Augusta",
+    "versao_schema": "1.1.0",
+    "total_saloes": 2,
+    "mesas_por_salao": 25,
+    "modo_simulacao": true,
+    "hardware_conectado": false,
+    "ultima_atualizacao": "2026-11-25T21:09:44"
+  },
+  "metricas": {
+    "total_mesas": 50,
+    "mesas_livres": 18,
+    "mesas_ocupadas": 20,
+    "mesas_aguardando_limpeza": 6,
+    "mesas_aguardando_atendimento": 6,
+    "taxa_ocupacao_percentual": 52.0,
+    "por_salao": {
+      "Salão Principal (Térreo)": {
+        "total_mesas": 25,
+        "mesas_livres": 8,
+        "mesas_ocupadas": 11,
+        "mesas_aguardando_limpeza": 3,
+        "mesas_aguardando_atendimento": 3,
+        "taxa_ocupacao_percentual": 56.0
+      },
+      "Salão Superior (Mezanino)": {
+        "total_mesas": 25,
+        "mesas_livres": 10,
+        "mesas_ocupadas": 9,
+        "mesas_aguardando_limpeza": 3,
+        "mesas_aguardando_atendimento": 3,
+        "taxa_ocupacao_percentual": 48.0
+      }
+    }
+  },
+  "mesas": [
+    {
+      "id": "AUG-S1-M01",
+      "nome": "Mesa 01",
+      "salao": "Salão Principal (Térreo)",
+      "capacidade": 4,
+      "estado_atual": "Livre",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Verde",
+        "codigo_hex": "#22c55e",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S1-M02",
+      "nome": "Mesa 02",
+      "salao": "Salão Principal (Térreo)",
+      "capacidade": 4,
+      "estado_atual": "Ocupada",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Vermelho",
+        "codigo_hex": "#ef4444",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S1-M03",
+      "nome": "Mesa 03",
+      "salao": "Salão Principal (Térreo)",
+      "capacidade": 2,
+      "estado_atual": "Ocupada",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Vermelho",
+        "codigo_hex": "#ef4444",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S1-M04",
+      "nome": "Mesa 04",
+      "salao": "Salão Principal (Térreo)",
+      "capacidade": 4,
+      "estado_atual": "Aguardando atendimento",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Azul",
+        "codigo_hex": "#3b82f6",
+        "sinal_alerta": true
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S1-M05",
+      "nome": "Mesa 05",
+      "salao": "Salão Principal (Térreo)",
+      "capacidade": 6,
+      "estado_atual": "Livre",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Verde",
+        "codigo_hex": "#22c55e",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S1-M06",
+      "nome": "Mesa 06",
+      "salao": "Salão Principal (Térreo)",
+      "capacidade": 4,
+      "estado_atual": "Ocupada",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Vermelho",
+        "codigo_hex": "#ef4444",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S1-M07",
+      "nome": "Mesa 07",
+      "salao": "Salão Principal (Térreo)",
+      "capacidade": 2,
+      "estado_atual": "Aguardando limpeza",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Amarelo",
+        "codigo_hex": "#eab308",
+        "sinal_alerta": true
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S1-M08",
+      "nome": "Mesa 08",
+      "salao": "Salão Principal (Térreo)",
+      "capacidade": 4,
+      "estado_atual": "Ocupada",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Vermelho",
+        "codigo_hex": "#ef4444",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S1-M09",
+      "nome": "Mesa 09",
+      "salao": "Salão Principal (Térreo)",
+      "capacidade": 4,
+      "estado_atual": "Livre",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Verde",
+        "codigo_hex": "#22c55e",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S1-M10",
+      "nome": "Mesa 10",
+      "salao": "Salão Principal (Térreo)",
+      "capacidade": 8,
+      "estado_atual": "Ocupada",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Vermelho",
+        "codigo_hex": "#ef4444",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S1-M11",
+      "nome": "Mesa 11",
+      "salao": "Salão Principal (Térreo)",
+      "capacidade": 6,
+      "estado_atual": "Aguardando atendimento",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Azul",
+        "codigo_hex": "#3b82f6",
+        "sinal_alerta": true
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S1-M12",
+      "nome": "Mesa 12",
+      "salao": "Salão Principal (Térreo)",
+      "capacidade": 4,
+      "estado_atual": "Ocupada",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Vermelho",
+        "codigo_hex": "#ef4444",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S1-M13",
+      "nome": "Mesa 13",
+      "salao": "Salão Principal (Térreo)",
+      "capacidade": 2,
+      "estado_atual": "Livre",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Verde",
+        "codigo_hex": "#22c55e",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S1-M14",
+      "nome": "Mesa 14",
+      "salao": "Salão Principal (Térreo)",
+      "capacidade": 4,
+      "estado_atual": "Ocupada",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Vermelho",
+        "codigo_hex": "#ef4444",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S1-M15",
+      "nome": "Mesa 15",
+      "salao": "Salão Principal (Térreo)",
+      "capacidade": 6,
+      "estado_atual": "Aguardando limpeza",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Amarelo",
+        "codigo_hex": "#eab308",
+        "sinal_alerta": true
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S1-M16",
+      "nome": "Mesa 16",
+      "salao": "Salão Principal (Térreo)",
+      "capacidade": 4,
+      "estado_atual": "Livre",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Verde",
+        "codigo_hex": "#22c55e",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S1-M17",
+      "nome": "Mesa 17",
+      "salao": "Salão Principal (Térreo)",
+      "capacidade": 4,
+      "estado_atual": "Ocupada",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Vermelho",
+        "codigo_hex": "#ef4444",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S1-M18",
+      "nome": "Mesa 18",
+      "salao": "Salão Principal (Térreo)",
+      "capacidade": 2,
+      "estado_atual": "Ocupada",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Vermelho",
+        "codigo_hex": "#ef4444",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S1-M19",
+      "nome": "Mesa 19",
+      "salao": "Salão Principal (Térreo)",
+      "capacidade": 6,
+      "estado_atual": "Livre",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Verde",
+        "codigo_hex": "#22c55e",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S1-M20",
+      "nome": "Mesa 20",
+      "salao": "Salão Principal (Térreo)",
+      "capacidade": 4,
+      "estado_atual": "Aguardando atendimento",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Azul",
+        "codigo_hex": "#3b82f6",
+        "sinal_alerta": true
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S1-M21",
+      "nome": "Mesa 21",
+      "salao": "Salão Principal (Térreo)",
+      "capacidade": 4,
+      "estado_atual": "Ocupada",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Vermelho",
+        "codigo_hex": "#ef4444",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S1-M22",
+      "nome": "Mesa 22",
+      "salao": "Salão Principal (Térreo)",
+      "capacidade": 2,
+      "estado_atual": "Livre",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Verde",
+        "codigo_hex": "#22c55e",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S1-M23",
+      "nome": "Mesa 23",
+      "salao": "Salão Principal (Térreo)",
+      "capacidade": 4,
+      "estado_atual": "Aguardando limpeza",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Amarelo",
+        "codigo_hex": "#eab308",
+        "sinal_alerta": true
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S1-M24",
+      "nome": "Mesa 24",
+      "salao": "Salão Principal (Térreo)",
+      "capacidade": 6,
+      "estado_atual": "Ocupada",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Vermelho",
+        "codigo_hex": "#ef4444",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S1-M25",
+      "nome": "Mesa 25",
+      "salao": "Salão Principal (Térreo)",
+      "capacidade": 8,
+      "estado_atual": "Livre",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Verde",
+        "codigo_hex": "#22c55e",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S2-M26",
+      "nome": "Mesa 26",
+      "salao": "Salão Superior (Mezanino)",
+      "capacidade": 4,
+      "estado_atual": "Ocupada",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Vermelho",
+        "codigo_hex": "#ef4444",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S2-M27",
+      "nome": "Mesa 27",
+      "salao": "Salão Superior (Mezanino)",
+      "capacidade": 4,
+      "estado_atual": "Livre",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Verde",
+        "codigo_hex": "#22c55e",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S2-M28",
+      "nome": "Mesa 28",
+      "salao": "Salão Superior (Mezanino)",
+      "capacidade": 2,
+      "estado_atual": "Livre",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Verde",
+        "codigo_hex": "#22c55e",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S2-M29",
+      "nome": "Mesa 29",
+      "salao": "Salão Superior (Mezanino)",
+      "capacidade": 4,
+      "estado_atual": "Ocupada",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Vermelho",
+        "codigo_hex": "#ef4444",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S2-M30",
+      "nome": "Mesa 30",
+      "salao": "Salão Superior (Mezanino)",
+      "capacidade": 6,
+      "estado_atual": "Aguardando atendimento",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Azul",
+        "codigo_hex": "#3b82f6",
+        "sinal_alerta": true
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S2-M31",
+      "nome": "Mesa 31",
+      "salao": "Salão Superior (Mezanino)",
+      "capacidade": 4,
+      "estado_atual": "Livre",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Verde",
+        "codigo_hex": "#22c55e",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S2-M32",
+      "nome": "Mesa 32",
+      "salao": "Salão Superior (Mezanino)",
+      "capacidade": 2,
+      "estado_atual": "Ocupada",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Vermelho",
+        "codigo_hex": "#ef4444",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S2-M33",
+      "nome": "Mesa 33",
+      "salao": "Salão Superior (Mezanino)",
+      "capacidade": 4,
+      "estado_atual": "Aguardando limpeza",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Amarelo",
+        "codigo_hex": "#eab308",
+        "sinal_alerta": true
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S2-M34",
+      "nome": "Mesa 34",
+      "salao": "Salão Superior (Mezanino)",
+      "capacidade": 4,
+      "estado_atual": "Livre",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Verde",
+        "codigo_hex": "#22c55e",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S2-M35",
+      "nome": "Mesa 35",
+      "salao": "Salão Superior (Mezanino)",
+      "capacidade": 8,
+      "estado_atual": "Ocupada",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Vermelho",
+        "codigo_hex": "#ef4444",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S2-M36",
+      "nome": "Mesa 36",
+      "salao": "Salão Superior (Mezanino)",
+      "capacidade": 6,
+      "estado_atual": "Livre",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Verde",
+        "codigo_hex": "#22c55e",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S2-M37",
+      "nome": "Mesa 37",
+      "salao": "Salão Superior (Mezanino)",
+      "capacidade": 4,
+      "estado_atual": "Aguardando atendimento",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Azul",
+        "codigo_hex": "#3b82f6",
+        "sinal_alerta": true
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S2-M38",
+      "nome": "Mesa 38",
+      "salao": "Salão Superior (Mezanino)",
+      "capacidade": 2,
+      "estado_atual": "Ocupada",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Vermelho",
+        "codigo_hex": "#ef4444",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S2-M39",
+      "nome": "Mesa 39",
+      "salao": "Salão Superior (Mezanino)",
+      "capacidade": 4,
+      "estado_atual": "Livre",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Verde",
+        "codigo_hex": "#22c55e",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S2-M40",
+      "nome": "Mesa 40",
+      "salao": "Salão Superior (Mezanino)",
+      "capacidade": 6,
+      "estado_atual": "Ocupada",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Vermelho",
+        "codigo_hex": "#ef4444",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S2-M41",
+      "nome": "Mesa 41",
+      "salao": "Salão Superior (Mezanino)",
+      "capacidade": 4,
+      "estado_atual": "Aguardando limpeza",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Amarelo",
+        "codigo_hex": "#eab308",
+        "sinal_alerta": true
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S2-M42",
+      "nome": "Mesa 42",
+      "salao": "Salão Superior (Mezanino)",
+      "capacidade": 4,
+      "estado_atual": "Livre",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Verde",
+        "codigo_hex": "#22c55e",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S2-M43",
+      "nome": "Mesa 43",
+      "salao": "Salão Superior (Mezanino)",
+      "capacidade": 2,
+      "estado_atual": "Ocupada",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Vermelho",
+        "codigo_hex": "#ef4444",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S2-M44",
+      "nome": "Mesa 44",
+      "salao": "Salão Superior (Mezanino)",
+      "capacidade": 6,
+      "estado_atual": "Livre",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Verde",
+        "codigo_hex": "#22c55e",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S2-M45",
+      "nome": "Mesa 45",
+      "salao": "Salão Superior (Mezanino)",
+      "capacidade": 4,
+      "estado_atual": "Livre",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Verde",
+        "codigo_hex": "#22c55e",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S2-M46",
+      "nome": "Mesa 46",
+      "salao": "Salão Superior (Mezanino)",
+      "capacidade": 4,
+      "estado_atual": "Ocupada",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Vermelho",
+        "codigo_hex": "#ef4444",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S2-M47",
+      "nome": "Mesa 47",
+      "salao": "Salão Superior (Mezanino)",
+      "capacidade": 2,
+      "estado_atual": "Aguardando atendimento",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Azul",
+        "codigo_hex": "#3b82f6",
+        "sinal_alerta": true
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S2-M48",
+      "nome": "Mesa 48",
+      "salao": "Salão Superior (Mezanino)",
+      "capacidade": 4,
+      "estado_atual": "Livre",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Verde",
+        "codigo_hex": "#22c55e",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S2-M49",
+      "nome": "Mesa 49",
+      "salao": "Salão Superior (Mezanino)",
+      "capacidade": 6,
+      "estado_atual": "Ocupada",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Vermelho",
+        "codigo_hex": "#ef4444",
+        "sinal_alerta": false
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    },
+    {
+      "id": "AUG-S2-M50",
+      "nome": "Mesa 50",
+      "salao": "Salão Superior (Mezanino)",
+      "capacidade": 8,
+      "estado_atual": "Aguardando limpeza",
+      "indicador_iot": {
+        "simulado": true,
+        "hardware_conectado": false,
+        "cor_led": "Amarelo",
+        "codigo_hex": "#eab308",
+        "sinal_alerta": true
+      },
+      "ultima_alteracao": "2026-11-25T21:09:44"
+    }
+  ],
+  "historico_eventos": []
+}

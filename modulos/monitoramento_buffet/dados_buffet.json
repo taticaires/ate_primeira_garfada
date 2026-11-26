@@ -1,0 +1,103 @@
+{
+  "unidade": "Bovinu'S Grill & Beer - Augusta",
+  "modulo": "monitoramento_buffet",
+  "modo": "demonstracao_simulada",
+  "atualizado_em": "2026-11-25 21:48:47",
+  "areas": {
+    "buffet_1": "Saladas e frios",
+    "buffet_2": "Comida quente",
+    "buffet_3": "Sobremesas",
+    "churrasqueira": "Praça do churrasco",
+    "balancas": 2
+  },
+  "alimentos": [
+    {
+      "id": "B1-01",
+      "area": "Buffet 1",
+      "nome": "Mix de folhas e tomate",
+      "nivel": "Cheio",
+      "ultima_leitura": "2026-11-25 21:46:09",
+      "status": "Normal"
+    },
+    {
+      "id": "B2-01",
+      "area": "Buffet 2",
+      "nome": "Arroz branco",
+      "nivel": "Cheio",
+      "ultima_leitura": "2026-11-25 21:48:47",
+      "status": "Normal"
+    },
+    {
+      "id": "B2-02",
+      "area": "Buffet 2",
+      "nome": "Feijão carioca",
+      "nivel": "Cheio",
+      "ultima_leitura": "2026-11-25 21:46:09",
+      "status": "Normal"
+    },
+    {
+      "id": "B2-03",
+      "area": "Buffet 2",
+      "nome": "Picanha na chapa",
+      "nivel": "Médio",
+      "ultima_leitura": "2026-11-25 21:46:09",
+      "status": "Normal"
+    },
+    {
+      "id": "B2-04",
+      "area": "Buffet 2",
+      "nome": "Batata rústica",
+      "nivel": "Cheio",
+      "ultima_leitura": "2026-11-25 21:46:09",
+      "status": "Normal"
+    },
+    {
+      "id": "B3-01",
+      "area": "Buffet 3",
+      "nome": "Pudim",
+      "nivel": "Vazio",
+      "ultima_leitura": "2026-11-25 21:46:09",
+      "status": "Reposição necessária"
+    },
+    {
+      "id": "CH-01",
+      "area": "Churrasqueira",
+      "nome": "Disponibilidade de carnes",
+      "nivel": "Cheio",
+      "ultima_leitura": "2026-11-25 21:46:09",
+      "status": "Normal"
+    }
+  ],
+  "historico": [
+    {
+      "id": "16E9F614",
+      "alimento_id": "B2-01",
+      "area": "Buffet 2",
+      "alimento": "Arroz branco",
+      "nivel": "Cheio",
+      "acao": "Cuba reposta",
+      "horario": "2026-11-25 21:48:47",
+      "origem": "simulada"
+    },
+    {
+      "id": "C2405B79",
+      "alimento_id": "B3-01",
+      "area": "Buffet 3",
+      "alimento": "Pudim",
+      "nivel": "Vazio",
+      "acao": "Alerta inicial",
+      "horario": "2026-11-25 21:46:09",
+      "origem": "simulada"
+    },
+    {
+      "id": "D8BE395D",
+      "alimento_id": "B2-01",
+      "area": "Buffet 2",
+      "alimento": "Arroz branco",
+      "nivel": "Vazio",
+      "acao": "Alerta inicial",
+      "horario": "2026-11-25 21:46:09",
+      "origem": "simulada"
+    }
+  ]
+}

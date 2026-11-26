@@ -1,0 +1,497 @@
+{
+  "projeto": "Até a Primeira Garfada",
+  "unidade": "Bovinu'S Grill & Beer - Augusta",
+  "modulo": "desperdicio_experiencia_cliente",
+  "modo_funcionamento": "simulacao_e_registro_manual",
+  "data_hora_atualizacao": "2026-11-25T22:07:08",
+  "aviso_demonstracao": {
+    "dados_simulados_ou_manuais": true,
+    "pesagem_automatica_ativa": false,
+    "reconhecimento_visual_ativo": false,
+    "pesquisa_real_integrada": false,
+    "dados_pessoais_coletados": false
+  },
+  "indicadores": {
+    "total_consumido_kg": 166.5,
+    "total_descartado_kg": 40.8,
+    "percentual_desperdicio_geral": 19.7,
+    "alimento_maior_sobra": "Polenta Frita",
+    "percentual_maior_sobra": 39.5,
+    "alimento_mais_consumido": "Picanha na Brasa",
+    "consumo_alimento_lider_kg": 34.3,
+    "indice_medio_satisfacao": 3.89,
+    "tendencia_desperdicio": "Em alta (+4.1 p.p.)",
+    "variacao_tendencia_pp": 4.1,
+    "dados_simulados": true
+  },
+  "registros_desperdicio": [
+    {
+      "registro_id": "DSP-0015",
+      "alimento": "Salada de Folhas & Legumes",
+      "categoria": "Saladas & Frios",
+      "periodo": "Almoço (11h30–13h30)",
+      "consumido_kg": 9.4,
+      "descartado_kg": 2.3,
+      "percentual_desperdicio": 19.7,
+      "disponibilidade": "Baixa (faltou no buffet)",
+      "origem_dado": "simulacao_demo",
+      "data_hora": "2026-11-25T22:07:04"
+    },
+    {
+      "registro_id": "DSP-0014",
+      "alimento": "Fraldinha Grelhada",
+      "categoria": "Carnes & Grelhados",
+      "periodo": "Almoço Tarde (13h30–15h30)",
+      "consumido_kg": 12.0,
+      "descartado_kg": 4.0,
+      "percentual_desperdicio": 25.0,
+      "disponibilidade": "Média (reposição moderada)",
+      "origem_dado": "simulacao_demo",
+      "data_hora": "2026-11-25T22:06:21"
+    },
+    {
+      "registro_id": "DSP-0013",
+      "alimento": "Batata Frita",
+      "categoria": "Guarnições & Fritos",
+      "periodo": "Almoço Tarde (13h30–15h30)",
+      "consumido_kg": 14.2,
+      "descartado_kg": 4.5,
+      "percentual_desperdicio": 24.1,
+      "disponibilidade": "Alta (reposição constante)",
+      "origem_dado": "simulacao_demo",
+      "data_hora": "2026-11-25T22:06:20"
+    },
+    {
+      "registro_id": "DSP-0001",
+      "alimento": "Picanha na Brasa",
+      "categoria": "Carnes & Grelhados",
+      "periodo": "Almoço (11h30–13h30)",
+      "consumido_kg": 18.5,
+      "descartado_kg": 0.9,
+      "percentual_desperdicio": 4.6,
+      "disponibilidade": "Média (reposição moderada)",
+      "origem_dado": "simulacao_demo",
+      "data_hora": "2026-11-25T22:06:18"
+    },
+    {
+      "registro_id": "DSP-0002",
+      "alimento": "Fraldinha Grelhada",
+      "categoria": "Carnes & Grelhados",
+      "periodo": "Almoço (11h30–13h30)",
+      "consumido_kg": 14.0,
+      "descartado_kg": 1.1,
+      "percentual_desperdicio": 7.3,
+      "disponibilidade": "Alta (reposição constante)",
+      "origem_dado": "simulacao_demo",
+      "data_hora": "2026-11-25T22:06:18"
+    },
+    {
+      "registro_id": "DSP-0003",
+      "alimento": "Arroz Branco",
+      "categoria": "Acompanhamentos",
+      "periodo": "Almoço (11h30–13h30)",
+      "consumido_kg": 16.2,
+      "descartado_kg": 4.8,
+      "percentual_desperdicio": 22.9,
+      "disponibilidade": "Alta (reposição constante)",
+      "origem_dado": "simulacao_demo",
+      "data_hora": "2026-11-25T22:06:18"
+    },
+    {
+      "registro_id": "DSP-0004",
+      "alimento": "Feijão Carioca",
+      "categoria": "Acompanhamentos",
+      "periodo": "Almoço (11h30–13h30)",
+      "consumido_kg": 12.4,
+      "descartado_kg": 2.9,
+      "percentual_desperdicio": 19.0,
+      "disponibilidade": "Alta (reposição constante)",
+      "origem_dado": "simulacao_demo",
+      "data_hora": "2026-11-25T22:06:18"
+    },
+    {
+      "registro_id": "DSP-0005",
+      "alimento": "Farofa da Casa",
+      "categoria": "Acompanhamentos",
+      "periodo": "Almoço Tarde (13h30–15h30)",
+      "consumido_kg": 7.5,
+      "descartado_kg": 2.6,
+      "percentual_desperdicio": 25.7,
+      "disponibilidade": "Alta (reposição constante)",
+      "origem_dado": "simulacao_demo",
+      "data_hora": "2026-11-25T22:06:18"
+    },
+    {
+      "registro_id": "DSP-0006",
+      "alimento": "Batata Frita",
+      "categoria": "Guarnições & Fritos",
+      "periodo": "Almoço Tarde (13h30–15h30)",
+      "consumido_kg": 11.0,
+      "descartado_kg": 3.7,
+      "percentual_desperdicio": 25.2,
+      "disponibilidade": "Média (reposição moderada)",
+      "origem_dado": "simulacao_demo",
+      "data_hora": "2026-11-25T22:06:18"
+    },
+    {
+      "registro_id": "DSP-0007",
+      "alimento": "Polenta Frita",
+      "categoria": "Guarnições & Fritos",
+      "periodo": "Almoço Tarde (13h30–15h30)",
+      "consumido_kg": 5.2,
+      "descartado_kg": 3.4,
+      "percentual_desperdicio": 39.5,
+      "disponibilidade": "Alta (reposição constante)",
+      "origem_dado": "simulacao_demo",
+      "data_hora": "2026-11-25T22:06:18"
+    },
+    {
+      "registro_id": "DSP-0008",
+      "alimento": "Salada de Folhas & Legumes",
+      "categoria": "Saladas & Frios",
+      "periodo": "Almoço (11h30–13h30)",
+      "consumido_kg": 9.8,
+      "descartado_kg": 2.1,
+      "percentual_desperdicio": 17.6,
+      "disponibilidade": "Alta (reposição constante)",
+      "origem_dado": "simulacao_demo",
+      "data_hora": "2026-11-25T22:06:18"
+    },
+    {
+      "registro_id": "DSP-0009",
+      "alimento": "Maionese de Batata",
+      "categoria": "Saladas & Frios",
+      "periodo": "Jantar / Grill (18h30–22h00)",
+      "consumido_kg": 4.6,
+      "descartado_kg": 2.3,
+      "percentual_desperdicio": 33.3,
+      "disponibilidade": "Alta (reposição constante)",
+      "origem_dado": "simulacao_demo",
+      "data_hora": "2026-11-25T22:06:18"
+    },
+    {
+      "registro_id": "DSP-0010",
+      "alimento": "Penne ao Molho Branco",
+      "categoria": "Massas",
+      "periodo": "Jantar / Grill (18h30–22h00)",
+      "consumido_kg": 6.4,
+      "descartado_kg": 3.1,
+      "percentual_desperdicio": 32.6,
+      "disponibilidade": "Média (reposição moderada)",
+      "origem_dado": "simulacao_demo",
+      "data_hora": "2026-11-25T22:06:18"
+    },
+    {
+      "registro_id": "DSP-0011",
+      "alimento": "Picanha na Brasa",
+      "categoria": "Carnes & Grelhados",
+      "periodo": "Jantar / Grill (18h30–22h00)",
+      "consumido_kg": 15.8,
+      "descartado_kg": 0.7,
+      "percentual_desperdicio": 4.2,
+      "disponibilidade": "Baixa (faltou no buffet)",
+      "origem_dado": "simulacao_demo",
+      "data_hora": "2026-11-25T22:06:18"
+    },
+    {
+      "registro_id": "DSP-0012",
+      "alimento": "Arroz Branco",
+      "categoria": "Acompanhamentos",
+      "periodo": "Jantar / Grill (18h30–22h00)",
+      "consumido_kg": 9.5,
+      "descartado_kg": 2.4,
+      "percentual_desperdicio": 20.2,
+      "disponibilidade": "Alta (reposição constante)",
+      "origem_dado": "simulacao_demo",
+      "data_hora": "2026-11-25T22:06:18"
+    }
+  ],
+  "dados_consumo": {
+    "por_alimento": [
+      {
+        "alimento": "Arroz Branco",
+        "categoria": "Acompanhamentos",
+        "consumido_kg": 25.7,
+        "descartado_kg": 7.2,
+        "total_servido_kg": 32.9,
+        "percentual_desperdicio": 21.9
+      },
+      {
+        "alimento": "Batata Frita",
+        "categoria": "Guarnições & Fritos",
+        "consumido_kg": 25.2,
+        "descartado_kg": 8.2,
+        "total_servido_kg": 33.4,
+        "percentual_desperdicio": 24.6
+      },
+      {
+        "alimento": "Farofa da Casa",
+        "categoria": "Acompanhamentos",
+        "consumido_kg": 7.5,
+        "descartado_kg": 2.6,
+        "total_servido_kg": 10.1,
+        "percentual_desperdicio": 25.7
+      },
+      {
+        "alimento": "Feijão Carioca",
+        "categoria": "Acompanhamentos",
+        "consumido_kg": 12.4,
+        "descartado_kg": 2.9,
+        "total_servido_kg": 15.3,
+        "percentual_desperdicio": 19.0
+      },
+      {
+        "alimento": "Fraldinha Grelhada",
+        "categoria": "Carnes & Grelhados",
+        "consumido_kg": 26.0,
+        "descartado_kg": 5.1,
+        "total_servido_kg": 31.1,
+        "percentual_desperdicio": 16.4
+      },
+      {
+        "alimento": "Maionese de Batata",
+        "categoria": "Saladas & Frios",
+        "consumido_kg": 4.6,
+        "descartado_kg": 2.3,
+        "total_servido_kg": 6.9,
+        "percentual_desperdicio": 33.3
+      },
+      {
+        "alimento": "Penne ao Molho Branco",
+        "categoria": "Massas",
+        "consumido_kg": 6.4,
+        "descartado_kg": 3.1,
+        "total_servido_kg": 9.5,
+        "percentual_desperdicio": 32.6
+      },
+      {
+        "alimento": "Picanha na Brasa",
+        "categoria": "Carnes & Grelhados",
+        "consumido_kg": 34.3,
+        "descartado_kg": 1.6,
+        "total_servido_kg": 35.9,
+        "percentual_desperdicio": 4.5
+      },
+      {
+        "alimento": "Polenta Frita",
+        "categoria": "Guarnições & Fritos",
+        "consumido_kg": 5.2,
+        "descartado_kg": 3.4,
+        "total_servido_kg": 8.6,
+        "percentual_desperdicio": 39.5
+      },
+      {
+        "alimento": "Salada de Folhas & Legumes",
+        "categoria": "Saladas & Frios",
+        "consumido_kg": 19.2,
+        "descartado_kg": 4.4,
+        "total_servido_kg": 23.6,
+        "percentual_desperdicio": 18.6
+      }
+    ],
+    "por_categoria": [
+      {
+        "categoria": "Acompanhamentos",
+        "consumido_kg": 45.6,
+        "descartado_kg": 12.7,
+        "total_servido_kg": 58.3,
+        "percentual_desperdicio": 21.8
+      },
+      {
+        "categoria": "Carnes & Grelhados",
+        "consumido_kg": 60.3,
+        "descartado_kg": 6.7,
+        "total_servido_kg": 67.0,
+        "percentual_desperdicio": 10.0
+      },
+      {
+        "categoria": "Guarnições & Fritos",
+        "consumido_kg": 30.4,
+        "descartado_kg": 11.6,
+        "total_servido_kg": 42.0,
+        "percentual_desperdicio": 27.6
+      },
+      {
+        "categoria": "Massas",
+        "consumido_kg": 6.4,
+        "descartado_kg": 3.1,
+        "total_servido_kg": 9.5,
+        "percentual_desperdicio": 32.6
+      },
+      {
+        "categoria": "Saladas & Frios",
+        "consumido_kg": 23.8,
+        "descartado_kg": 6.7,
+        "total_servido_kg": 30.5,
+        "percentual_desperdicio": 22.0
+      }
+    ],
+    "por_periodo": [
+      {
+        "periodo": "Almoço (11h30–13h30)",
+        "consumido_kg": 80.3,
+        "descartado_kg": 14.1,
+        "percentual_desperdicio": 14.9
+      },
+      {
+        "periodo": "Almoço Tarde (13h30–15h30)",
+        "consumido_kg": 49.9,
+        "descartado_kg": 18.2,
+        "percentual_desperdicio": 26.7
+      },
+      {
+        "periodo": "Jantar / Grill (18h30–22h00)",
+        "consumido_kg": 36.3,
+        "descartado_kg": 8.5,
+        "percentual_desperdicio": 19.0
+      }
+    ]
+  },
+  "avaliacoes_satisfacao": [
+    {
+      "avaliacao_id": "SAT-0009",
+      "nota": 4,
+      "periodo": "Almoço Tarde (13h30–15h30)",
+      "disponibilidade_percebida": "Média (reposição moderada)",
+      "categoria_destaque": "Carnes & Grelhados",
+      "observacao_anonima": "Boa comida, pequena espera na reposição de acompanhamentos.",
+      "origem_dado": "simulacao_demo",
+      "data_hora": "2026-11-25T22:07:08"
+    },
+    {
+      "avaliacao_id": "SAT-0001",
+      "nota": 5,
+      "periodo": "Almoço (11h30–13h30)",
+      "disponibilidade_percebida": "Alta (reposição constante)",
+      "categoria_destaque": "Carnes & Grelhados",
+      "observacao_anonima": "Carnes no ponto e buffet bem abastecido.",
+      "origem_dado": "simulacao_demo",
+      "data_hora": "2026-11-25T22:06:18"
+    },
+    {
+      "avaliacao_id": "SAT-0002",
+      "nota": 4,
+      "periodo": "Almoço (11h30–13h30)",
+      "disponibilidade_percebida": "Média (reposição moderada)",
+      "categoria_destaque": "Acompanhamentos",
+      "observacao_anonima": "Boa variedade, apenas demora leve na reposição da picanha.",
+      "origem_dado": "simulacao_demo",
+      "data_hora": "2026-11-25T22:06:18"
+    },
+    {
+      "avaliacao_id": "SAT-0003",
+      "nota": 3,
+      "periodo": "Almoço Tarde (13h30–15h30)",
+      "disponibilidade_percebida": "Média (reposição moderada)",
+      "categoria_destaque": "Guarnições & Fritos",
+      "observacao_anonima": "Polenta e batata frita já estavam frias no fim do almoço.",
+      "origem_dado": "simulacao_demo",
+      "data_hora": "2026-11-25T22:06:18"
+    },
+    {
+      "avaliacao_id": "SAT-0004",
+      "nota": 5,
+      "periodo": "Almoço (11h30–13h30)",
+      "disponibilidade_percebida": "Alta (reposição constante)",
+      "categoria_destaque": "Saladas & Frios",
+      "observacao_anonima": "Saladas frescas e ótima apresentação.",
+      "origem_dado": "simulacao_demo",
+      "data_hora": "2026-11-25T22:06:18"
+    },
+    {
+      "avaliacao_id": "SAT-0005",
+      "nota": 2,
+      "periodo": "Jantar / Grill (18h30–22h00)",
+      "disponibilidade_percebida": "Baixa (faltou no buffet)",
+      "categoria_destaque": "Carnes & Grelhados",
+      "observacao_anonima": "Corte principal demorou para ser reposto no horário de pico.",
+      "origem_dado": "simulacao_demo",
+      "data_hora": "2026-11-25T22:06:18"
+    },
+    {
+      "avaliacao_id": "SAT-0006",
+      "nota": 4,
+      "periodo": "Jantar / Grill (18h30–22h00)",
+      "disponibilidade_percebida": "Alta (reposição constante)",
+      "categoria_destaque": "Carnes & Grelhados",
+      "observacao_anonima": "Experiência muito boa, atendimento rápido.",
+      "origem_dado": "simulacao_demo",
+      "data_hora": "2026-11-25T22:06:18"
+    },
+    {
+      "avaliacao_id": "SAT-0007",
+      "nota": 3,
+      "periodo": "Jantar / Grill (18h30–22h00)",
+      "disponibilidade_percebida": "Média (reposição moderada)",
+      "categoria_destaque": "Massas",
+      "observacao_anonima": "Massa um pouco ressecada na cuba.",
+      "origem_dado": "simulacao_demo",
+      "data_hora": "2026-11-25T22:06:18"
+    },
+    {
+      "avaliacao_id": "SAT-0008",
+      "nota": 5,
+      "periodo": "Almoço (11h30–13h30)",
+      "disponibilidade_percebida": "Alta (reposição constante)",
+      "categoria_destaque": "Carnes & Grelhados",
+      "observacao_anonima": "Excelente qualidade e variedade.",
+      "origem_dado": "simulacao_demo",
+      "data_hora": "2026-11-25T22:06:18"
+    }
+  ],
+  "indicadores_satisfacao": {
+    "total_avaliacoes": 9,
+    "media_geral": 3.89,
+    "percentual_positivas": 66.7,
+    "media_por_disponibilidade": [
+      {
+        "disponibilidade_percebida": "Alta (reposição constante)",
+        "media_nota": 4.75,
+        "quantidade": 4
+      },
+      {
+        "disponibilidade_percebida": "Baixa (faltou no buffet)",
+        "media_nota": 2.0,
+        "quantidade": 1
+      },
+      {
+        "disponibilidade_percebida": "Média (reposição moderada)",
+        "media_nota": 3.5,
+        "quantidade": 4
+      }
+    ],
+    "relacao_operacional": "Avaliações com alta disponibilidade atingem média 4.8/5, enquanto relatos de falta no buffet caem para 2.0/5 (queda de 2.8 pontos). No período 'Almoço Tarde (13h30–15h30)', o desperdício atingiu 26.7% com nota média 3.5/5."
+  },
+  "recomendacoes_geradas": [
+    {
+      "prioridade": "Alta",
+      "foco": "Redução de sobras — Polenta Frita",
+      "diagnostico": "Índice de desperdício de 39.5% (3.4 kg descartados), o maior retorno de pratos.",
+      "acao": "Reduzir o lote preparado por fornada, usar pegadores menores no buffet e revisar temperatura/textura de exposição para evitar rejeição após servido."
+    },
+    {
+      "prioridade": "Média",
+      "foco": "Volume de descarte — Batata Frita",
+      "diagnostico": "Maior volume total descartado (8.2 kg; 24.6% de desperdício).",
+      "acao": "Reavaliar tamanho das cubas e orientar reposição fracionada na última hora de cada turno."
+    },
+    {
+      "prioridade": "Alta",
+      "foco": "Reposição prioritária — Picanha na Brasa",
+      "diagnostico": "Item mais consumido (34.3 kg) com apenas 4.5% de desperdício, mas com registro de falta no buffet.",
+      "acao": "Antecipar o disparo da grelha nos horários de pico para manter disponibilidade alta e proteger a nota de satisfação dos clientes."
+    },
+    {
+      "prioridade": "Média",
+      "foco": "Revisão de categoria — Massas",
+      "diagnostico": "Categoria com maior taxa média de desperdício (32.6%).",
+      "acao": "Reduzir variedade simultânea nessa categoria fora do horário de pico e monitorar aceitação dos pratos com maior retorno."
+    },
+    {
+      "prioridade": "Alta",
+      "foco": "Experiência do Cliente",
+      "diagnostico": "Satisfação média em 3.9/5, abaixo da meta operacional (4,0/5).",
+      "acao": "Cruzar horários de menor nota com temperatura dos acompanhamentos e velocidade de reposição das carnes."
+    }
+  ]
+}
