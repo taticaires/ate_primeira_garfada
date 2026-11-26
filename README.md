@@ -31,6 +31,12 @@ A proposta considera a experiência completa, da chegada à saída:
 
 Em restaurantes, informações de diferentes etapas da operação podem ficar distribuídas entre setores e controles independentes. Essa fragmentação pode dificultar a visualização do funcionamento geral, a identificação de gargalos e o acompanhamento de reposição, ocupação e desperdício.
 
+## Princípio de decisão
+
+O projeto parte de uma premissa: **decisões operacionais de maior impacto devem ser orientadas por dados, não por suposições.** As primeiras medidas propostas buscam melhorar a comunicação, a organização e a coleta de informações. Com os dados reunidos ao longo do funcionamento, o gestor poderá identificar quais problemas são recorrentes e quais ações realmente fazem sentido.
+
+Por exemplo, não seria adequado recomendar a contratação de cinco funcionários sem conhecer a demanda, os horários de maior movimento, a distribuição das tarefas e os gargalos existentes. A análise pode indicar que a contratação é necessária, mas também pode revelar que uma reorganização de processos ou escalas resolve parte do problema. O sistema apoia essa avaliação; a decisão continua sendo do gestor.
+
 ## Solução proposta
 
 O protótipo reúne módulos operacionais em uma aplicação com navegação integrada. A Visão Geral apresenta um resumo demonstrativo e sinais visuais de atenção, enquanto os módulos permitem consultar diferentes dimensões da operação.
