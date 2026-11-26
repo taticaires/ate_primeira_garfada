@@ -148,6 +148,6 @@ Nesta versão, não há integração ativa com sensores físicos, balanças inte
 
 ## Créditos
 
-Projeto desenvolvido por **Tatiane Caires** para o Hackathon FMU 2026.2.
+Projeto desenvolvido por **Tatiane Caires | Luciane Oliveira | André Romão** para o Hackathon FMU 2026.2.
 
 [Aplicação online](https://ate-primeira-garfada.streamlit.app/) · [Repositório GitHub](https://github.com/taticaires/ate_primeira_garfada)
