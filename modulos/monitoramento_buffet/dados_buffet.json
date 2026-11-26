@@ -2,7 +2,7 @@
   "unidade": "Bovinu'S Grill & Beer - Augusta",
   "modulo": "monitoramento_buffet",
   "modo": "demonstracao_simulada",
-  "atualizado_em": "2026-11-25 21:48:47",
+  "atualizado_em": "2026-11-25 23:53:57",
   "areas": {
     "buffet_1": "Saladas e frios",
     "buffet_2": "Comida quente",
@@ -16,7 +16,7 @@
       "area": "Buffet 1",
       "nome": "Mix de folhas e tomate",
       "nivel": "Cheio",
-      "ultima_leitura": "2026-11-25 21:46:09",
+      "ultima_leitura": "2026-11-25 23:52:37",
       "status": "Normal"
     },
     {
@@ -24,7 +24,7 @@
       "area": "Buffet 2",
       "nome": "Arroz branco",
       "nivel": "Cheio",
-      "ultima_leitura": "2026-11-25 21:48:47",
+      "ultima_leitura": "2026-11-25 23:53:57",
       "status": "Normal"
     },
     {
@@ -32,7 +32,7 @@
       "area": "Buffet 2",
       "nome": "Feijão carioca",
       "nivel": "Cheio",
-      "ultima_leitura": "2026-11-25 21:46:09",
+      "ultima_leitura": "2026-11-25 23:52:37",
       "status": "Normal"
     },
     {
@@ -40,7 +40,7 @@
       "area": "Buffet 2",
       "nome": "Picanha na chapa",
       "nivel": "Médio",
-      "ultima_leitura": "2026-11-25 21:46:09",
+      "ultima_leitura": "2026-11-25 23:52:37",
       "status": "Normal"
     },
     {
@@ -48,56 +48,85 @@
       "area": "Buffet 2",
       "nome": "Batata rústica",
       "nivel": "Cheio",
-      "ultima_leitura": "2026-11-25 21:46:09",
+      "ultima_leitura": "2026-11-25 23:52:37",
       "status": "Normal"
     },
     {
       "id": "B3-01",
       "area": "Buffet 3",
       "nome": "Pudim",
-      "nivel": "Vazio",
-      "ultima_leitura": "2026-11-25 21:46:09",
-      "status": "Reposição necessária"
+      "nivel": "Cheio",
+      "ultima_leitura": "2026-11-25 23:53:41",
+      "status": "Normal"
     },
     {
       "id": "CH-01",
       "area": "Churrasqueira",
       "nome": "Disponibilidade de carnes",
       "nivel": "Cheio",
-      "ultima_leitura": "2026-11-25 21:46:09",
+      "ultima_leitura": "2026-11-25 23:52:37",
       "status": "Normal"
     }
   ],
   "historico": [
     {
-      "id": "16E9F614",
+      "id": "31A710F5",
       "alimento_id": "B2-01",
       "area": "Buffet 2",
       "alimento": "Arroz branco",
       "nivel": "Cheio",
       "acao": "Cuba reposta",
-      "horario": "2026-11-25 21:48:47",
+      "horario": "2026-11-25 23:53:57",
       "origem": "simulada"
     },
     {
-      "id": "C2405B79",
+      "id": "7A3748E3",
       "alimento_id": "B3-01",
       "area": "Buffet 3",
       "alimento": "Pudim",
-      "nivel": "Vazio",
-      "acao": "Alerta inicial",
-      "horario": "2026-11-25 21:46:09",
+      "nivel": "Cheio",
+      "acao": "Cuba reposta",
+      "horario": "2026-11-25 23:53:41",
       "origem": "simulada"
     },
     {
-      "id": "D8BE395D",
-      "alimento_id": "B2-01",
-      "area": "Buffet 2",
-      "alimento": "Arroz branco",
-      "nivel": "Vazio",
-      "acao": "Alerta inicial",
-      "horario": "2026-11-25 21:46:09",
-      "origem": "simulada"
+      "registro_id": "DEMO-452",
+      "unidade": "Bovinu'S Grill & Beer - Augusta",
+      "peso_g": 452,
+      "alimentos": [
+        {
+          "nome": "Arroz branco",
+          "confianca_simulada": 25
+        },
+        {
+          "nome": "Feijão carioca",
+          "confianca_simulada": 25
+        },
+        {
+          "nome": "Carne bovina",
+          "confianca_simulada": 10
+        },
+        {
+          "nome": "Frango grelhado",
+          "confianca_simulada": 10
+        },
+        {
+          "nome": "Linguiça",
+          "confianca_simulada": 10
+        },
+        {
+          "nome": "Ovos de codorna",
+          "confianca_simulada": 10
+        },
+        {
+          "nome": "Salada",
+          "confianca_simulada": 10
+        }
+      ],
+      "temperatura_c": 42.5,
+      "temperatura_status": "simulada",
+      "modo": "simulacao",
+      "horario": "2026-11-25 23:52:32"
     }
   ]
 }
