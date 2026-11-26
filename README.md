@@ -22,10 +22,11 @@ A proposta considera a experiência completa, da chegada à saída:
 
 1. **Chegada e escolha:** totens ou painéis visuais no salão apresentam o prato do dia e outras opções do cardápio. A comunicação busca despertar o interesse por diferentes preparações, não apenas pelo churrasco, e orientar a escolha do cliente.
 2. **Identificação de mesas:** uma sinalização luminosa discreta pode indicar mesas livres para os clientes e facilitar a identificação, pela equipe, de mesas ocupadas, em atendimento ou que precisam de limpeza.
-3. **Serviço e buffet:** câmeras e recursos de visão computacional poderão apoiar a leitura do fluxo no salão e a observação dos níveis do buffet, gerando sinais para organização e reposição.
-4. **Montagem do prato:** a balança inteligente poderá combinar a leitura do peso com análise visual dos alimentos, apoiando estimativas de composição e consumo.
-5. **Consumo e retorno dos pratos:** a análise visual do retorno dos pratos poderá contribuir para estimar sobras e padrões de desperdício, respeitando a necessidade de validação em ambiente real.
-6. **Saída e avaliação:** um totem de avaliação rápida permite que o cliente registre sua percepção do atendimento com poucos toques. Esse retorno pode ser relacionado aos indicadores operacionais para compreender melhor a experiência.
+3. **Fluxo do salão e churrasqueira:** câmeras poderão acompanhar o fluxo e o tempo de espera na área da churrasqueira, identificando períodos de fila. O tempo de referência proposto é de até **2 minutos e 30 segundos por cliente**. Quando esse intervalo for ultrapassado de forma recorrente, um alerta poderá aparecer no painel para que o gerente avalie a causa e decida a ação adequada, como reorganizar o fluxo ou considerar reforço de equipe.
+4. **Buffet:** câmeras e recursos de visão computacional poderão observar os níveis dos alimentos e gerar sinais para organização e reposição.
+5. **Montagem do prato:** a balança inteligente poderá combinar a leitura do peso com análise visual dos alimentos, apoiando estimativas de composição e consumo.
+6. **Consumo e retorno dos pratos:** a análise visual do retorno dos pratos poderá contribuir para estimar sobras e padrões de desperdício, respeitando a necessidade de validação em ambiente real.
+7. **Saída e avaliação:** um totem de avaliação rápida permite que o cliente registre sua percepção do atendimento com poucos toques. Esse retorno pode ser relacionado aos indicadores operacionais para compreender melhor a experiência.
 
 ## Problema identificado
 
@@ -35,7 +36,7 @@ Em restaurantes, informações de diferentes etapas da operação podem ficar di
 
 O projeto parte de uma premissa: **decisões operacionais de maior impacto devem ser orientadas por dados, não por suposições.** As primeiras medidas propostas buscam melhorar a comunicação, a organização e a coleta de informações. Com os dados reunidos ao longo do funcionamento, o gestor poderá identificar quais problemas são recorrentes e quais ações realmente fazem sentido.
 
-Por exemplo, não seria adequado recomendar a contratação de cinco funcionários sem conhecer a demanda, os horários de maior movimento, a distribuição das tarefas e os gargalos existentes. A análise pode indicar que a contratação é necessária, mas também pode revelar que uma reorganização de processos ou escalas resolve parte do problema. O sistema apoia essa avaliação; a decisão continua sendo do gestor.
+Por exemplo, não seria adequado recomendar a contratação de cinco funcionários sem conhecer a demanda, os horários de maior movimento, a distribuição das tarefas e os gargalos existentes. O acompanhamento do tempo de espera na churrasqueira, usando como referência proposta até 2 minutos e 30 segundos por cliente, pode ajudar a identificar períodos críticos. Se o tempo exceder essa referência, o painel poderá sinalizar a situação ao gerente. A análise pode indicar que é necessário reforçar a equipe, mas também pode revelar que uma reorganização do fluxo ou das tarefas resolve o problema. O sistema apoia essa avaliação; a decisão continua sendo do gestor.
 
 ## Solução proposta
 
@@ -48,7 +49,7 @@ O protótipo reúne módulos operacionais em uma aplicação com navegação int
 - **Visão Geral:** painel central com indicadores resumidos e alertas operacionais.
 - **Balança Inteligente:** demonstração visual relacionada à pesagem , sensor de temperatura e à análise ilustrativa do prato.
 - **Monitoramento do Buffet:** níveis demonstrativos dos alimentos e indicação de reposição.
-- **Fluxo e Atendimento:** visualização demonstrativa do fluxo e do atendimento.
+- **Fluxo e Atendimento:** visualização demonstrativa do fluxo, atendimento e acompanhamento proposto do tempo de espera na churrasqueira, com referência de 2 minutos e 30 segundos e sinalização de possíveis gargalos para análise gerencial.
 - **Gestão de Mesas:** estados e ocupação demonstrativa das mesas.
 - **Desperdício e Experiência:** dados demonstrativos relacionados ao consumo, descarte e experiência do cliente.
 
@@ -168,10 +169,10 @@ A evolução está organizada em duas frentes complementares.
 
 ### Evolução tecnológica
 
-- Integrar câmeras e fontes de dados para leitura de fluxo e apoio ao monitoramento;
+- Integrar câmeras e fontes de dados para leitura do fluxo do salão, acompanhamento das filas na churrasqueira e apoio ao monitoramento;
 - Desenvolver e validar a análise visual do buffet, da balança e do retorno dos pratos;
 - Integrar sensores e dados reais, quando disponíveis;
-- Aprimorar indicadores, regras de análise e conexão entre módulos;
+- Aprimorar indicadores, regras de análise e conexão entre módulos, incluindo alertas de tempo de espera na churrasqueira;
 - Validar a solução em ambiente operacional e avaliar seus efeitos sobre fluxo, desperdício e experiência.
 
 As iniciativas descritas são propostas de implementação e evolução. Não estão apresentadas como integrações já concluídas ou resultados comprovados nesta versão acadêmica.
