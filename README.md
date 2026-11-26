@@ -86,6 +86,10 @@ Visualização dos estados e da ocupação demonstrativa das mesas.
 ```text
 ate_primeira_garfada/
 ├── app.py
+├── README.md
+├── docs/
+│   ├── images/                 # Capturas de tela do protótipo
+│   └── apresentação.pdf        # Slides do Hackathon
 └── modulos/
     ├── atendimento/
     ├── balanca_inteligente/
@@ -142,6 +146,12 @@ Nesta versão, não há integração ativa com sensores físicos, balanças inte
 
 ## Créditos
 
-Projeto desenvolvido por **Tatiane Caires | Luciene Oliveira | André Romão** para o Hackathon FMU 2026.2.
+Projeto desenvolvido por:
+
+- **Luciene Ap. Oliveira**
+- **Tatiane A. Caires**
+- **André Luis N. Romão**
+
+Hackathon FMU 2026.2.
 
 [Aplicação online](https://ate-primeira-garfada.streamlit.app/) · [Repositório GitHub](https://github.com/taticaires/ate_primeira_garfada) · [Vídeo](https://youtu.be/euwbudI6EG0) · [Slides em PDF](docs/Até%20a%20Primeira%20Garfada_Apresentação%20Hackathon%202.2026%20FMU.pdf)
